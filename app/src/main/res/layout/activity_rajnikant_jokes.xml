@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_jokes"
+    android:id="@+id/activity_rajnikant_jokes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context="com.geniusnine.android.hindijokes.jokes.Jokes">
-
-
+    tools:context="com.geniusnine.android.hindijokes.RajnikantJokes.RajnikantJokes">
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
+        android:id="@+id/pappujokeslistView"
+        android:background="@drawable/rajni"
         android:divider="@drawable/divider"
-        android:dividerHeight="20dp"
-        android:layout_marginLeft="20dp"
-        android:id="@+id/listViewCategories" />
-
+        android:dividerHeight="10dp"/>
     <TextView
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewCategories"
+        android:id="@+id/textViewPappu"
         android:textColor="#000000"/>
 </RelativeLayout>

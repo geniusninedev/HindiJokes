@@ -18,7 +18,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jokes.Jokes"></activity>
+        <activity android:name=".jokes.Jokes" />
+        <activity
+            android:name=".jokes.HoliJokes"
+            android:label="@string/app_name2" />
+        <activity
+            android:name=".jokes.HoliJokesDetail"
+            android:label="@string/app_name2" />
+        <activity
+            android:name=".PappuJokes.PappuJokes"
+            android:label="@string/app_name3" />
+        <activity
+            android:name=".PappuJokes.PappuJokesDetail"
+            android:label="@string/app_name3" />
+        <activity
+            android:name=".RajnikantJokes.RajnikantJokes"
+            android:label="@string/app_name8" />
+        <activity
+            android:name=".RajnikantJokes.RajnikantJokesDetail"
+            android:label="@string/app_name8" />
+        <activity android:name=".SantaBantaJokes.SantaBantaJokes" android:label="@string/app_name9"/>
+        <activity android:name=".SantaBantaJokes.SantaBantaJokesDetail" android:label="@string/app_name9"></activity>
     </application>
 
 </manifest>

@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="app_name2">Holi Jokes</string>
+    <string name="app_name3">Pappu Jokes</string>
+    <string name="app_name8">Rajnikant Jokes</string>
+    <string name="app_name9">SantaBanta Jokes</string>
 </resources>
